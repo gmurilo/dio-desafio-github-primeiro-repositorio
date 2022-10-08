@@ -44,7 +44,7 @@
         "logo": "./data/imgs/mysql.png"
       },
       {
-        "name": "Oracle",
+        "name": "Oracle Database",
         "logo": "./data/imgs/oracle.png"
       },
       {
@@ -54,6 +54,18 @@
       {
         "name": "SQL Server",
         "logo": "./data/imgs/mssql.png"
+      },
+      {
+        "name": "Cloud Specialist (AWS, Azure, GCP e IBM)",
+        "logo": "./data/imgs/cloud.png"
+      },
+      {
+        "name": "Docker",
+        "logo": "./data/imgs/docker.png"
+      },
+      {
+        "name": "ETL Specialist",
+        "logo": "./data/imgs/etl.png"
       }
     ],
     "softSkills": [
@@ -69,14 +81,9 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
+      "name": "Nome do Projeto",
+      "url": "https://urldoprojeto",
+      "github": false
     }
   ],
   "professionalExperience": [

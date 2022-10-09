@@ -902,3 +902,5 @@ $$ Language plpgsql;
 
 CREATE TRIGGER "checaPessoa" BEFORE INSERT ON "Pessoa_Fisica" FOR EACH ROW EXECUTE PROCEDURE "checaPessoa"();
 CREATE TRIGGER "checaPessoa" BEFORE INSERT ON "Pessoa_Juridica" FOR EACH ROW EXECUTE PROCEDURE "checaPessoa"();
+
+ALTER TABLE "Pedido_Produto" ADD COLUMN "idRevenda" INT NOT NULL REFERENCES "Revenda" ( "idRevenda" );

@@ -1,0 +1,38 @@
+.footer {
+  background-color: #eee;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: center;
+  flex-direction: column;
+  min-height: initial;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  padding: .5rem;
+  margin: 0;
+}
+.footer ul li {
+  padding: .5rem;
+  max-height: 64px;
+  max-width: 64px;
+  display: flex;
+  align-items: center;
+}
+.footer ul li > a {
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-image: url( '../imgs/socialmedia.png');
+  background-size: 138px 98px;
+  background-position: 0px 0px;
+  
+}
+.footer ul li > a[href*='linkedin'] {
+  background-position: -96px -55px;
+}
+.footer ul li > a[href*='twitter'] {
+  background-position: 0px -55px;
+}
